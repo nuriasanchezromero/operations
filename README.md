@@ -54,20 +54,15 @@ Las lecciones sin enlace están pendientes de escribir.
 - [`docs/decisiones.md`](docs/decisiones.md) por qué se decidió cada cosa.
 - [`docs/handoffs/`](docs/handoffs/) traspasos entre sesiones, por fecha.
 - [`docs/plantillas/`](docs/plantillas/) plantillas para copiar a otros proyectos.
-- [`.claude/skills/`](.claude/skills/) skills de Claude Code. Se activan solas al abrir este repo; para usarlas en cualquier otra carpeta hay que instalarlas una vez (abajo).
+- [skills](https://github.com/nuriasanchezromero/skills) repo aparte con las skills de Claude Code, empaquetadas como marketplace. Se instalan una vez y valen en cualquier carpeta.
 
 ## Skills
 
-Una skill es un archivo de texto que enseña a Claude Code a hacer una cosa concreta de una forma concreta. Viven en `.claude/skills/NOMBRE/SKILL.md`. Las de este repo son la fuente; cada persona las instala en su ordenador para tenerlas en todos sus proyectos.
+Las skills viven en su propio repo, [nuriasanchezromero/skills](https://github.com/nuriasanchezromero/skills). Instalación, dentro de Claude Code:
 
-| Skill | Qué hace | Cómo se invoca |
-|---|---|---|
-| `lm` | Convierte cualquier situación técnica, error o traspaso en pasos concretos que una persona no técnica puede ejecutar. | `/lm`, o preguntar "¿y ahora qué?" |
-
-Instalar `lm` en tu ordenador (Mac o Linux, una sola vez):
-
-```bash
-mkdir -p ~/.claude/skills/lm && curl -fsSL https://raw.githubusercontent.com/nuriasanchezromero/operations/main/.claude/skills/lm/SKILL.md -o ~/.claude/skills/lm/SKILL.md
+```
+/plugin marketplace add nuriasanchezromero/skills
+/plugin install lm@nuria
 ```
 
-A partir de ahí, en cualquier carpeta, escribe `/lm` dentro de Claude Code.
+La primera es `lm`: convierte cualquier situación técnica en pasos concretos para alguien no técnico. Se invoca con `/lm` o preguntando "¿y ahora qué?".
