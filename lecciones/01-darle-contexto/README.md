@@ -85,11 +85,29 @@ Edita `CLAUDE.md` (pídeselo a Claude o ábrelo con cualquier editor de texto). 
 
 Sal, vuelve a entrar y pide que reescriba `bienvenida.md`. Verás que ahora es más corto. Has cambiado cómo trabaja el agente sin tocar tu forma de pedirle cosas.
 
+### 5. Instala tu primera skill
+
+Una **skill** es como un `CLAUDE.md` pero para una tarea concreta, y vale en todos tus proyectos a la vez. La primera que vas a instalar se llama `lm`: convierte cualquier lío técnico en pasos que puedes seguir. Dentro de Claude, escribe estas dos líneas, una y luego otra:
+
+```
+/plugin marketplace add nuriasanchezromero/skills
+/plugin install lm@nuria
+```
+
+Ahora pruébala. Escribe `/lm` seguido de algo que no entiendas, por ejemplo:
+
+```
+/lm me dicen que tengo que "hacer un commit y un push" y no sé qué es
+```
+
+Te responderá con bloques numerados: qué hacer, por qué, y cómo funciona por debajo. Ese formato lo vas a ver mucho en este curso. Cada vez que te pierdas, `/lm`.
+
 ## Comprueba que funcionó
 
 - [ ] Existe `CLAUDE.md` en la carpeta `practica-ia`.
 - [ ] Al pedir el mismo texto, con y sin `CLAUDE.md`, el resultado es claramente distinto.
 - [ ] Añadir una regla al archivo cambió el siguiente resultado sin que la repitieras en el mensaje.
+- [ ] `/lm` responde con bloques numerados.
 
 ## Qué has aprendido
 

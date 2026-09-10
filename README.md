@@ -35,16 +35,16 @@ historial de git es tu progreso.
 
 | Lección | Qué consigues |
 |---|---|
-| 06 · Pedir bien | Tareas en fases, verificar antes de aceptar, cuándo decir "así no". |
+| [06 · Pedir bien](lecciones/06-pedir-bien/README.md) | Tareas en fases, verificar antes de aceptar, cuándo decir "así no". |
 | 07 · Cambiar de cuenta o de herramienta | El documento de traspaso. Caso real. |
-| 08 · Tu propio proceso | Extraer la plantilla del proyecto y reutilizarla. |
+| [08 · Tu propio proceso](lecciones/08-tu-propio-proceso/README.md) | Extraer la plantilla del proyecto y reutilizarla. |
 
 ### Bloque 3 · Tu primer programa con IA dentro
 
 | Lección | Qué consigues |
 |---|---|
-| 09 · Llamar a Claude desde código | Un script que envía un mensaje a la API y muestra la respuesta. |
-| 10 · Un asistente propio | Instrucciones fijas y memoria, publicado en la web. |
+| [09 · Llamar a Claude desde código](lecciones/09-llamar-a-claude-desde-codigo/README.md) | Un script que envía un mensaje a la API y muestra la respuesta. |
+| [10 · Un asistente propio](lecciones/10-un-asistente-propio/README.md) | Instrucciones fijas y memoria, publicado en la web. |
 
 Las lecciones sin enlace están pendientes de escribir.
 
