@@ -54,3 +54,4 @@ Las lecciones sin enlace están pendientes de escribir.
 - [`docs/decisiones.md`](docs/decisiones.md) por qué se decidió cada cosa.
 - [`docs/handoffs/`](docs/handoffs/) traspasos entre sesiones, por fecha.
 - [`docs/plantillas/`](docs/plantillas/) plantillas para copiar a otros proyectos.
+- [`.claude/skills/`](.claude/skills/) skills de Claude Code que se activan al abrir este repo. La primera es `lm`: convierte cualquier situación técnica en pasos concretos para alguien no técnico.
