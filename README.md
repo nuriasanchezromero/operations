@@ -63,6 +63,7 @@ Las skills viven en su propio repo, [nuriasanchezromero/skills](https://github.c
 ```
 /plugin marketplace add nuriasanchezromero/skills
 /plugin install lm@nuria
+/plugin install contexto@nuria
 ```
 
-La primera es `lm`: convierte cualquier situación técnica en pasos concretos para alguien no técnico. Se invoca con `/lm` o preguntando "¿y ahora qué?".
+La segunda, `contexto`, cierra cada lista de siguientes pasos con un veredicto: `/clear`, `/compact` o nada, con el porqué. La primera es `lm`: convierte cualquier situación técnica en pasos concretos para alguien no técnico. Se invoca con `/lm` o preguntando "¿y ahora qué?".
