@@ -5,9 +5,9 @@ export default defineEval({
   cases: [
     {
       id: "list",
-      description: "Asked who it can talk to, it lists and does not send.",
+      description: "Si le preguntan con quién puede hablar, da la lista y no envía nada.",
       async test(t) {
-        await t.send("Who can you talk to? List them. Do not message anyone.");
+        await t.send("¿Con quién puedes hablar? Dame la lista. No le escribas a nadie.");
         t.succeeded();
         t.calledTool("grokbot__list");
         t.notCalledTool("grokbot__ask");

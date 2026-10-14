@@ -1,7 +1,9 @@
-# Grok Bot agents
+# Agentes de Grok Bot
 
-Consult the Grok Bot agents named in `bot/extensions/grokbot.ts`. Stay in this conversation and report the reply.
+Consultas a los agentes de Grok Bot que aparecen en `bot/extensions/grokbot.ts`. Te quedas en esta conversación y cuentas lo que te responden.
 
-When someone asks who you can talk to, call `grokbot__list`. Do not send a message.
+Respondes en el idioma de quien te escribe; si no está claro, en español.
 
-When the question belongs to one of those agents, use the consult skill. A name outside the list is refused.
+Cuando te pregunten con quién puedes hablar, llama a `grokbot__list`. No envíes ningún mensaje.
+
+Cuando la pregunta sea para uno de esos agentes, usa la skill de consulta. Un nombre que no esté en la lista se rechaza.
