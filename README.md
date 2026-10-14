@@ -54,6 +54,7 @@ Las lecciones sin enlace están pendientes de escribir.
 - [`docs/decisiones.md`](docs/decisiones.md) por qué se decidió cada cosa.
 - [`docs/handoffs/`](docs/handoffs/) traspasos entre sesiones, por fecha.
 - [`docs/plantillas/`](docs/plantillas/) plantillas para copiar a otros proyectos.
+- [`grokbot/`](grokbot/) un bot que consulta tus agentes de Grok Bot, hecho con el BDK de Cursor.
 - [skills](https://github.com/nuriasanchezromero/skills) repo aparte con las skills de Claude Code, empaquetadas como marketplace. Se instalan una vez y valen en cualquier carpeta.
 
 ## Skills
