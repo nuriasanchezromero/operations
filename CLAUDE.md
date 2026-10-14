@@ -12,6 +12,8 @@ asistente leyendo esto: sigue estas reglas antes de tocar nada.
 - `docs/handoffs/` documentos de traspaso, uno por fecha. Foto de "dónde estábamos".
   Nunca se editan después de escribirse.
 - `docs/plantillas/` plantillas reutilizables para otros proyectos.
+- `grokbot/` bot hecho con el BDK de Cursor que consulta agentes de Grok Bot. Proyecto
+ autocontenido con su propio `README.md` y `AGENTS.md`.
 - Las skills NO van aquí: viven en https://github.com/nuriasanchezromero/skills (marketplace de plugins).
 
 ## Para quién es el curso
